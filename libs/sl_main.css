@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.btn-tertiary {
+    color: #4D7988;
+    margin: 0 0 0 0;
+}
+
+a.btn:link, a.btn:visited {
+	color: #1E354B;
+	padding: 0px;
+    margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a.btn:hover, a.btn:active {
+	color: #1E354B;
+}
+
+a.btn-custom:link, a.btn-custom:visited {
+    color: #1E354B !important
+}
+
+a.btn-custom:hover, a.btn-custom:active {
+    color: #4D7988 !important
+}
+
+a.btn-sm:link, a.btn-sm:visited {
+	background-color: white;
+	color: #1E354B;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+}
+
+a.btn-sm:hover, a.btn-sm:active {
+	color: #4D7988 
+}
+
+}
+a.topnavlink:hover, a.topnavlink:active {
+	color: #4D7988 !important
+}
+
+.bg-custom { 
+    background-color: rgb(30,53,75); 
+} 
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+    vertical-align: top;
+}
