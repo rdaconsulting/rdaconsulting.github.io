@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+main > .container {
+    padding: 10px 15px;
+}
+
+.footer > .container {
+    padding-top: 20px;
+}
 
 .btn.btn-primary {
   border-radius: 2px;
