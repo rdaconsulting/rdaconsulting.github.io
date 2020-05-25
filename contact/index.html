@@ -68,7 +68,7 @@
                 <p class="lead">Please contact us if you're interested in engaging RDA Consulting in your Research project.</p>
 
 
-                <form id="contact-form" method="post" action="contact.php" role="form">
+                <form id="contact-form" method="post" action="https://formspree.io/meqraegd" role="form">
 
                     <div class="messages"></div>
 
@@ -76,41 +76,34 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label for="form_name">First name *</label>
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required"
+                                    <label for="form_name">Contact Name *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required"
                                         data-error="First name is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <label for="form_lastname">Last name *</label>
-                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required"
-                                        data-error="Last name is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label for="form_email">Email address*</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email address *" required="required"
-                                        data-error="Valid email is required.">
+                                    <label for="form_email">Email address *</label>
+                                    <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Please enter a valid contact email address" required="required"
+                                        data-error="A valid email is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <label for="form_phone">Phone</label>
-                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number (optional)">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" placeholder="Briefly describe your research study or question" rows="4" required="required"
+                            <label for="form_message">Message (please do not include sensitive information) *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Briefly describe the work or area you're interested in partnering on" rows="4" required="required"
                                 data-error="Please, leave us a message."></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
@@ -138,7 +131,7 @@
 
         </div>
         <!-- /.row-->
-
+      </div>
     </main>
     <footer class="footer mt-auto">
       <div class="container align-items-center">
